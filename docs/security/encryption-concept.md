@@ -42,3 +42,9 @@ flowchart TD
 
 * Argon2 to derive password / mnemonic to a key
 * AES-GCM, with a 256 bits key&#x20;
+
+
+
+## Data models
+
+You can find the details of the models, what's encrypted or not, here : [Models](https://app.gitbook.com/s/dxKeXEgHqpeFIV8n9WBU/models "mention")
