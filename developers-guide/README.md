@@ -1,3 +1,7 @@
+---
+icon: diagram-project
+---
+
 # Workflow
 
 To work on something in one of the following repo, you need to follow this pattern so release and changes are staged accordingly :&#x20;

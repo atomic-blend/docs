@@ -1,3 +1,7 @@
+---
+icon: play
+---
+
 # Getting Started
 
 ## Fork & Clone the repo

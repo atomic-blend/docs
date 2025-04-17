@@ -1,3 +1,7 @@
+---
+icon: play
+---
+
 # Getting Started
 
 ## Install Flutter&#x20;
