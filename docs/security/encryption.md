@@ -1,4 +1,8 @@
-# Encryption Concept
+---
+icon: binary-lock
+---
+
+# Encryption
 
 ## Overview
 
@@ -33,3 +37,8 @@ flowchart TD
     E --> J
 
 ```
+
+## Algorithms
+
+* Argon2 to derive password / mnemonic to a key
+* AES-GCM, with a 256 bits key&#x20;

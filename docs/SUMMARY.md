@@ -9,4 +9,7 @@
 
 ## Security
 
-* [Encryption Concept](security/encryption-concept.md)
+* [Encryption](security/encryption.md)
+* [KeySet](security/keyset.md)
+* [Mnemonic](security/mnemonic.md)
+* [Sharing Data Concept](security/sharing-data-concept.md)
