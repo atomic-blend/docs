@@ -1,3 +1,7 @@
+---
+icon: cloud
+---
+
 # Cloud Provider
 
 We use AWS as the main Cloud Provider for our SaaS infrastructure.

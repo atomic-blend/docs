@@ -1,3 +1,7 @@
+---
+icon: play
+---
+
 # Overview
 
 We think that privacy should be a right, not a commodity, and to do so, we need to provide a SaaS version that is reliable and scalable.
