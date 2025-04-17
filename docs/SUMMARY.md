@@ -14,3 +14,8 @@
 * [Mnemonic](security/mnemonic.md)
 * [Sharing Data Concept](security/sharing-data-concept.md)
 * [Encrypted Notifications](security/encrypted-notifications.md)
+
+## Cloud SaaS
+
+* [Overview](cloud-saas/overview.md)
+* [Cloud Provider](cloud-saas/cloud-provider.md)
