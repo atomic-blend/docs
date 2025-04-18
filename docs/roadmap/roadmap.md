@@ -1,3 +1,7 @@
+---
+icon: play
+---
+
 # Roadmap
 
 The Roadmap for the project is in constant evolution, being worked on my the maintainer of the project or the members of the community.

@@ -1,3 +1,7 @@
+---
+icon: lightbulb
+---
+
 # How to contribute ?
 
 You can easily contribute by creating a new issue in this repository : [https://github.com/atomic-blend/roadmap](https://github.com/atomic-blend/roadmap)
