@@ -43,6 +43,7 @@
     * [Create an habit](features/habits/habit-management/create-an-habit.md)
     * [Edit an habit](features/habits/habit-management/edit-an-habit.md)
     * [Delete an habit](features/habits/habit-management/delete-an-habit.md)
+  * [Scheduling](features/habits/scheduling.md)
   * [Log entries](features/habits/log-entries.md)
   * [Statistics](features/habits/statistics.md)
 
