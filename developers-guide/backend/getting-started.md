@@ -6,15 +6,15 @@ icon: play
 
 ## Fork & Clone the repo
 
-Fork, then clone the repository
+Fork and clone the [backend repository](https://github.com/atomic-blend/backend)
 
-
+Switch to the "dev" branch
 
 ## Configuring the env
 
 Copy `.env.example.com` to `.env` &#x20;
 
-Generate the secret value for SSO using:&#x20;
+Set the value of SSO_SECRET by generating a secret using:&#x20;
 
 ```shellscript
 openssl rand 256 | base64 -w0
@@ -22,12 +22,12 @@ openssl rand 256 | base64 -w0
 
 ## Launching the API
 
-There's a Dockerfile that includes all the necessary containers to run Atomic Blend backend
+*docker-compose-dev.yaml* includes all the necessary instructions to run Atomic Blend's backend
 
 Install docker and run:
 
 ```
-docker-compose up -d
+docker compose -f docker-compose-dev.yaml up -d
 ```
 
 The API, DB and all the required stuff should start.
