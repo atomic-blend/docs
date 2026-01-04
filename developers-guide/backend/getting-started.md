@@ -12,7 +12,15 @@ Switch to the "dev" branch
 
 ## Configuring the env
 
-Copy `.env.example.com` to `.env` &#x20;
+The environment file is located in the `docker` directory.
+
+Navigate to it first:
+
+```bash
+cd docker
+```
+
+Copy `.env.example` to `.env` &#x20;
 
 Set the value of SSO_SECRET by generating a secret using:&#x20;
 
@@ -23,6 +31,16 @@ openssl rand 256 | base64 -w0
 ## Launching the API
 
 *docker-compose-dev.yaml* includes all the necessary instructions to run Atomic Blend's backend
+
+### Windows note
+
+If you are on Windows, **comment out every occurrence of the following bind mount** in `docker-compose-dev.yaml` before running Docker:
+
+```yaml
+- type: bind
+  source: ${HOME}${USERPROFILE}/.netrc
+  target: /root/.netrc
+```
 
 Install docker and run:
 
