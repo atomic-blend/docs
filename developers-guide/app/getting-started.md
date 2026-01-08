@@ -24,8 +24,7 @@ Install the latest stable version of Flutter
 
 ## 2. Install the Android SDK
 
-**Recommended** : Use Android Studio to configure the Android SDK and your virtual 
-device
+**Recommended** : Use Android Studio to configure the Android SDK and your virtual device
 
 1. Install Android Studio
 2. In the Settings go to Languages & Frameworks and select Flutter.
@@ -40,7 +39,7 @@ Install **Visual Studio Community** (required for Windows builds and Firebase C+
 
 👉 https://visualstudio.microsoft.com/downloads/
 
-### During installation, select:
+During installation, select:
 
 - Desktop development with C++
 - MSVC v143 build tools
@@ -49,8 +48,7 @@ Install **Visual Studio Community** (required for Windows builds and Firebase C+
 
 Restart your PC after installation.
 
-### Verify installation
-
+Verify installation:
 ```bash
 cmake --version
 where cmake
@@ -74,7 +72,7 @@ Install the Flutter Rust Bridge code generator:
 cargo install flutter_rust_bridge_codegen
 ```
 
-Verify
+Verify:
 ```bash
 flutter_rust_bridge_codegen --version
 ```
