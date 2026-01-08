@@ -20,7 +20,7 @@ Navigate to it first:
 cd docker
 ```
 
-Copy `.env.example` to `.env` &#x20;
+Copy `.env.example` to `.env`
 
 Set the value of SSO_SECRET by generating a secret using:&#x20;
 
